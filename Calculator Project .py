@@ -34,6 +34,7 @@ class Calculator:
                 self.result = (self.firstnum - self.secondnum)
                 print(f"The sub of the two numbers you entered is = {self.result}")
             else:
+                self.result = (self.firstnum - self.secondnum)
                 print(f"The sub of the two numbers you entered is = {self.result}")
         except ValueError:
             print("\nError :( ")
